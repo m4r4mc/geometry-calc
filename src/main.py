@@ -17,8 +17,13 @@ def menu():
         print("4. Piramide")
         print("5. Salir")
 
-        solido = input("Ingrese un numero: ")
-        if not solido.isdigit() or solido not in [1, 2, 3, 4,5]:
+        entrada = input("Ingrese un numero: ")
+        if not entrada.isdigit():
+            print("Por favor, ingrese solo numeros del 1 al 5\n")
+            continue
+        solido = int(entrada)
+
+        if solido not in [1, 2, 3, 4, 5]:
             print("Por favor, ingrese solo numeros del 1 al 5\n")
             continue
         return solido
