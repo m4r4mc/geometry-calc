@@ -33,7 +33,7 @@ def pedir_material():
 
     contador = 1
     for nom in materiales:
-        print(contador, ".", nom)
+        print(f"{contador}. {nom}")
         contador = contador + 1
 
     while True:
