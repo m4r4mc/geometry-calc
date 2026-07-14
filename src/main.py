@@ -48,7 +48,7 @@ def main():
             material, densidad = pedir_material()
 
 
-            u_salida = pedir_unidad("Ingrese la unidad en la que quiere los resultados (cm, mm, km, in, m)")
+            u_salida = pedir_unidad("Ingrese la unidad en la que quiere los resultados (cm, mm, km, in, m): ")
 
             a_m2, v_m3, formulas= calcular_cubo(lado_m)
             area = convertir_area(a_m2, "m", u_salida)
@@ -77,7 +77,7 @@ def main():
             rm = convertir_longitud(radio, u_entrada, "m")
 
             material, densidad = pedir_material()
-            u_salida = pedir_unidad("Ingrese la unidad en la que quiere los resultados (cm, mm, km, in, m)")
+            u_salida = pedir_unidad("Ingrese la unidad en la que quiere los resultados (cm, mm, km, in, m): ")
 
             a_m2, v_m3, formulas = calcular_esfera(rm)
             area = convertir_area(a_m2, "m", u_salida)
@@ -109,7 +109,7 @@ def main():
             hm = convertir_longitud(altura, u_entrada, "m")
 
             material, densidad = pedir_material()
-            u_salida = pedir_unidad("Ingrese la unidad en la que quiere los resultados (cm, mm, km, in, m)")
+            u_salida = pedir_unidad("Ingrese la unidad en la que quiere los resultados (cm, mm, km, in, m): ")
 
             a_m2, v_m3, formulas = calcular_cilindro(rm, hm)
             area = convertir_area(a_m2, "m", u_salida)
@@ -145,7 +145,7 @@ def main():
             material, densidad = pedir_material()
             u_salida = pedir_unidad("Ingrese la unidad en la que quiere los resultados (cm, mm, km, in, m)")
 
-            a_m2, v_m3, formulas = calcular_piramide(rm)
+            a_m2, v_m3, formulas = calcular_piramide(lbm, hm, am)
             area = convertir_area(a_m2, "m", u_salida)
             vol = convertir_vol(v_m3, "m", u_salida)
 
