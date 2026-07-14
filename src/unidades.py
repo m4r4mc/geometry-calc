@@ -23,7 +23,7 @@ def convertir_longitud(valor, unidad_orig, unidad_reslt):
     return valor_mt / factor[unidad_reslt]
 
 def convertir_area(valor, unidad_orig, unidad_reslt):
-    fact = (factor[unidad_orig] / factor[unidad_reslt])**3
+    fact = (factor[unidad_orig] / factor[unidad_reslt])**2
     return valor*fact
 
 def convertir_vol(valor, unidad_orig, unidad_reslt):

@@ -8,7 +8,7 @@ def guardar_resultados(rslt, nom_archivo):
             archivo.write(f"Figura {i}: {['nombre']}\n")
             archivo.write("________________________________") #separar textos para que se vea mas ordenado
             archivo.write(f"{['formulas']['area']}\n")
-            archivo.write(f"Area: {['area']:.4f} {['unidad']}^2\n\n")
+            archivo.write(f"Area: {['area']} {['unidad']}^2\n\n")
             archivo.write(f"{['formulas']['volumen']}\n")
-            archivo.write(f"Volumen: {['volumen']:.4f} {['unidad']}^3\n")
+            archivo.write(f"Volumen: {['volumen']} {['unidad']}^3\n")
         archivo.write("Gracias por usar la calculadora!")
