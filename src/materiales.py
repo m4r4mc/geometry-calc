@@ -31,16 +31,16 @@ def pedir_material():
     print("Materiales disponibles: ")
     materiales = list(densidades.keys())
 
-    for i, nombre in enumerate(materiales, start=1): #imprimir lista de materiales
-        print(f"{i}. {nombre}")
+    contador = 1
+    for nom in materiales:
+        print(contador, ".", nom)
+        contador = contador + 1
 
     while True:
         op = int(input("Ingrese un numero para elegir el material: "))
-        if op in range(1, len(materiales)+1):
-            nom = materiales[op -1]
-            return nom, densidades[nombre]
-        
+        if op >= 1 and op <= len(materiales):
+            nom = materiales[op-1]
+            return nom, densidades[nom]
         else:
-            print("Ingrese solamente un numero valido")
+            print("Por favor, ingrese solamente un numero valido")
 
-            
