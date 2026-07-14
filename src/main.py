@@ -41,7 +41,7 @@ def main():
 
         #cubo
         elif op == 1:
-            u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m)")
+            u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m): ")
             lado = float(input("Ingrese la longitud del lado: "))
             lado_m = convertir_longitud(lado, u_entrada, "m")
 
@@ -59,7 +59,7 @@ def main():
                 masa = densidad*v_m3
 
             print(f"\n{formulas["area"]}")
-            print(f"Area: {area}{u_salida}^2")
+            print(f"Area: {area} {u_salida}^2")
             print(f"Volumen: {vol} {u_salida}^3")
 
             if masa:
@@ -72,7 +72,7 @@ def main():
         
         #Formulas esfera
         elif op ==2:
-            u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m)")
+            u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m): ")
             radio = float(input("Ingrese el radio: "))
             rm = convertir_longitud(radio, u_entrada, "m")
 
@@ -88,7 +88,7 @@ def main():
                 masa = densidad*v_m3
 
             print(f"\n{formulas['area']}")
-            print(f"Area: {area}{u_salida}^2")
+            print(f"Area: {area} {u_salida}^2")
             print(f"{formulas['volumen']}")
             print(f"Volumen: {vol} {u_salida}^3")
 
@@ -102,7 +102,7 @@ def main():
             
         #cilindro
         elif op ==3:
-            u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m)")
+            u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m): ")
             radio = float(input("Ingrese el radio: "))
             rm = convertir_longitud(radio, u_entrada, "m")
             altura = float(input("Ingrese la altura: "))
@@ -120,7 +120,7 @@ def main():
                 masa = densidad*v_m3
 
             print(f"\n{formulas['area']}")
-            print(f"Area: {area}{u_salida}^2")
+            print(f"Area: {area} {u_salida}^2")
             print(f"{formulas['volumen']}")
             print(f"Volumen: {vol} {u_salida}^3")
 
@@ -134,7 +134,7 @@ def main():
 
         #piramide
         elif op ==4:
-            u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m)")
+            u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m): ")
             l_base = float(input("Ingrese el lado de la base: "))
             lbm = convertir_longitud(l_base, u_entrada, "m")
             altura = float(input("Ingrese la altura de la piramide: "))
@@ -154,7 +154,7 @@ def main():
                 masa = densidad*v_m3
 
             print(f"\n{formulas['area']}")
-            print(f"Area: {area}{u_salida}^2")
+            print(f"Area: {area} {u_salida}^2")
             print(f"{formulas['volumen']}")
             print(f"Volumen: {vol} {u_salida}^3")
 
