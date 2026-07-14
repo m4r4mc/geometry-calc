@@ -24,9 +24,9 @@ def pedir_material():
             print("Ingrese solamente los numeros 1 o 2")
         else:
             break
-        return mat
+        
     if mat == 2:
-        return None
+        return None, None
     
     print("Materiales disponibles: ")
     materiales = list(densidades.keys())
