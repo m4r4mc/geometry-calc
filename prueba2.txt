@@ -1,0 +1,40 @@
+RESULTADOS - CALCULADORA GEOMETRICAFigura 1: Piramide
+______________________________
+Area = l^2 +2l*a, l = lado base
+Area: 12800000.0 cm^2
+
+Volumen = (l^2 * a)/3
+Volumen: 3333333333.3333335 cm^3
+
+ Material: hierro 
+Densidad: 7874 kg/m^3 
+Masa: 26246666.666666668 kg
+Figura 2: Cubo
+______________________________
+Area = 6 * lado^2
+Area: 96774.0 mm^2
+
+Volumen = lado^3
+Volumen: 2048383.0 mm^3
+Figura 3: Cilindro
+______________________________
+Area = 2*pi*r*(r + h)
+Area: 75398223.68615504 m^2
+
+Volumen = pi*r^2 *h
+Volumen: 50265482457.43669 m^3
+
+ Material: acero 
+Densidad: 7850 kg/m^3 
+Masa: 394584037290878.0 kg
+Figura 4: Esfera
+______________________________
+Area = 4*pi*r^2
+Area: 12.566370614359172 m^2
+
+Volumen = (4/3)*pi*r^3
+Volumen: 4.1887902047863905 m^3
+
+ Material: cobre 
+Densidad: 8960 kg/m^3 
+Masa: 37531.560234886056 kg

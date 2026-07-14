@@ -167,7 +167,7 @@ def main():
                   
 
     if rslt:
-        nombre_archivo = input("Si desea guardar los resultados en un archivo txt, esscriba el nombre o presione Enter para salir")
+        nombre_archivo = input("Si desea guardar los resultados en un archivo txt, esscriba el nombre o presione Enter para salir: ")
         if nombre_archivo:
             if not nombre_archivo.endswith(".txt"):
                 nombre_archivo += ".txt"
@@ -176,7 +176,7 @@ def main():
         else:
             print("No se guardo ningun archivo")
 
-    print("Gracias por utilizar la calculadora")
+    print("Gracias por utilizar la calculadora!")
 
 if __name__ == "__main__":
     main()
