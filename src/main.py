@@ -73,7 +73,7 @@ def main():
         #Formulas esfera
         elif op ==2:
             u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m)")
-            radio = input("Ingrese el radio: ")
+            radio = float(input("Ingrese el radio: "))
             rm = convertir_longitud(radio, u_entrada, "m")
 
             material, densidad = pedir_material()
@@ -103,9 +103,9 @@ def main():
         #cilindro
         elif op ==3:
             u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m)")
-            radio = input("Ingrese el radio: ")
+            radio = float(input("Ingrese el radio: "))
             rm = convertir_longitud(radio, u_entrada, "m")
-            altura = input("Ingrese la altura: ")
+            altura = float(input("Ingrese la altura: "))
             hm = convertir_longitud(altura, u_entrada, "m")
 
             material, densidad = pedir_material()
@@ -135,11 +135,11 @@ def main():
         #piramide
         elif op ==4:
             u_entrada = pedir_unidad("Ingrese la unidad en la que se encuentran sus medidas (cm, mm, km, in, m)")
-            l_base = input("Ingrese el lado de la base: ")
+            l_base = float(input("Ingrese el lado de la base: "))
             lbm = convertir_longitud(l_base, u_entrada, "m")
-            altura = input("Ingrese la altura de la piramide: ")
+            altura = float(input("Ingrese la altura de la piramide: "))
             hm = convertir_longitud(altura, u_entrada, "m")
-            apotema = input("Ingrese la apotema (altura de cara lateral): ")
+            apotema = float(input("Ingrese la apotema (altura de cara lateral): "))
             am = convertir_longitud(apotema, u_entrada, "m")
 
             material, densidad = pedir_material()
