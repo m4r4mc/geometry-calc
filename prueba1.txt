@@ -1,0 +1,11 @@
+RESULTADOS - CALCULADORA GEOMETRICAFigura 1: Cubo
+______________________________
+Area = 6 * lado^2
+Area: 0.23250046500093005 in^2
+
+Volumen = lado^3
+Volumen: 0.007627968011841538 in^3
+
+ Material: acero 
+Densidad: 7850 kg/m^3 
+Masa: 0.0009812500000000001 kg

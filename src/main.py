@@ -6,7 +6,7 @@ from resultados import guardar_resultados
 from materiales import pedir_material
 
 #Bienvenida al usuario
-print("Bienvenidos! Esto es una calculadora para obtener distintas propiedades geomtricas de un solido, por favor, siga las indicaciones")
+print("Bienvenidos! Esto es una calculadora para obtener distintas propiedades geomtricas de un solido, por favor, siga las indicaciones\n")
 
 def menu():
     while True:
