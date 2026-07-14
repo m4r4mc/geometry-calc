@@ -145,7 +145,7 @@ def main():
             material, densidad = pedir_material()
             u_salida = pedir_unidad("Ingrese la unidad en la que quiere los resultados (cm, mm, km, in, m)")
 
-            a_m2, v_m3, formulas = calcular_esfera(rm)
+            a_m2, v_m3, formulas = calcular_piramide(rm)
             area = convertir_area(a_m2, "m", u_salida)
             vol = convertir_vol(v_m3, "m", u_salida)
 
